@@ -1,0 +1,177 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: large;
+}
+.demo{
+    height: 30rem;
+    padding-bottom: 10px;
+}
+.rr{
+    overflow: hidden;
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width:  90%;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+
+}
+.test{
+    border-radius: 10px;
+    margin-top: 5px;
+
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all  0.7s ease-in-out ;
+
+    
+}
+img{
+    height: 100%;
+}
+.layer{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0%;
+    left: 0%;
+    background-color:rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all  0.7s ease-in-out ;
+    padding: 5px;
+    padding-left: 10px;
+ 
+}
+
+.rr:hover .test {
+
+scale: 1.2;
+transform: rotate(5deg);
+filter: blur(5px)
+}
+
+.rr:hover .layer{
+    opacity: 1;
+}
+
+.i1{
+    /* background-color: violet; */
+    width: 100%;
+    position: absolute;
+    top: -101%;
+    transition: all  0.7s ease-in-out ;
+    text-align: center;
+}
+.rr:hover .i1{
+    top: 2%;
+    
+    
+}
+
+.i2{
+    /* background-color: rgb(179, 79, 36); */
+    width: 100%;
+    position: absolute;
+    left: -101%;
+    top: 20%;
+    transition: all  0.7s ease-in-out ;
+    padding-left: 10px;
+    max-height: 50%;
+    overflow: hidden;
+    
+}
+
+.rr:hover .i2{
+
+    top: 20%;
+    left: 0%;
+    
+    
+}
+
+.i3{
+    /* background-color: rgb(153, 108, 225); */
+    width: 100%;
+    position: absolute;
+    bottom:  -101%;
+    left: 0%;
+    transition: all  0.7s ease-in-out ;
+    padding-left: 10px;
+    
+}
+
+.rr:hover .i3{
+
+    bottom:  10%;
+    left: 0%;
+    
+    
+}
+
+
+
+
+
+.rateIcon{
+    padding: 4px;
+    border: 2px solid rgb(14, 228, 14);
+    border-radius: 100%;
+    margin-right: auto;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+
+/* !.................. navbar.................. */
+.allNav{
+    z-index: 3;
+}
+.nav-menu{
+    cursor: pointer;
+    padding-top: 50px;
+}
+
+.mainNav{
+    background-color: #F8F6F6;
+    height: 100%;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.navContent{
+    width: 20vw;
+    height: 100%;
+    background-color: black;
+    display: none;
+}
+
+
+ul{
+    list-style-type: none;
+    
+    
+}
+
+li{
+    font-size: larger;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+li:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
